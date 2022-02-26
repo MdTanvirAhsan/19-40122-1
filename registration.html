@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+	<h2>Basic Information</h2>
+
+	<form>
+    <table>
+        <tr>
+            <td>
+                <label for="fname">First Name</label>
+            </td>
+            <td>
+                <input type="text" id="fname" name="firstname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lname">Last Name</label>
+            </td>
+            <td>
+                <input type="text" id="lname" name="lastname" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" value="f" name="gender"> Female</label>
+                    <label>
+                    <input value="m" type="radio" name="gender"> Male</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                    <label for="city">Religion</label>
+            </td>
+            <td>
+                    <select id="religion" name="religion">
+                        <option disabled selected>--Choose Religion--</option>
+       
+                                <option>Muslim</option>
+                                <option>Hindu</option>
+                                <option>Christian</option>
+                                <option>Buddhist</option>
+                                 <option>Other</option>
+                    </select>
+            </td>
+        </tr>
+    	</form>
+		</table>
+
+		
+		<form>
+			<table>
+
+        <h2>Contact Information</h2>
+
+        <tr>
+            <td>
+                <label for="pradd">Present Address</label>
+            </td>
+            <td>
+                <input type="textarea" id="pradd" name="present_address" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="peadd">Permanent Address</label>
+            </td>
+            <td>
+                <input type="textarea" id="peadd" name="permanent_address">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Phone">Phone</label>
+            </td>
+            <td>
+                <input type="tel" id="phone" name="Phone">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input type="text" id="email" name="Email" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="wslink">Personal Website</label>
+            </td>
+            <td>
+                <input type="url" id="wslink" name="Personal_Website">
+            </td>
+        </tr>
+
+
+</table>
+    </form>
+
+
+
+<form>
+	<table>
+		<h2>Credential</h2>
+
+		<tr>
+            <td>
+                <label for="uname">UserName</label>
+            </td>
+            <td>
+                <input type="text" id="uname" name="username" required>
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td>
+            	<label for="pass">Password</label>
+                <input type="password" placeholder="Password" id="password" required>
+        		<input type="password" placeholder="Confirm Password" id="confirm_password" required>
+            </td>
+        </tr>
+        
+    
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</head>
+<body>
+
+</body>
+</html>
